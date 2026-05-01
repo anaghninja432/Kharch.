@@ -1,0 +1,5 @@
+backend/.venv/
+backend/expenses.db
+__pycache__/
+*.pyc
+.env
