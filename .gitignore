@@ -1,5 +1,5 @@
 # Virtual env
-backend/.venv/
+.venv/
 
 # Database
 backend/expenses.db
