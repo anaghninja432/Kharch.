@@ -132,3 +132,26 @@ Categories are validated against an explicit allowlist in Pydantic. The frontend
 | Variable | Default | Description |
 |---|---|---|
 | `DB_PATH` | `expenses.db` | Path to the SQLite database file |
+
+
+## Another small note
+
+There are multiple cases where this project might expose some shortcomings like : removing an expense or monthly/yearly/quarterly analytics (although this might be a feature in it's own). However I just wanted things to be as simple as I could possibly make right now within 4 hours, so I didn't add it. This repo is very simple in its own , using FastAPI (one of my most favourite libraries through and out for simple applications which are currently not data heavy) and the structure is pretty monotone, as I preferred for a simple get go site.
+
+## Live Demo
+
+Frontend (GitHub Pages):  
+https://anaghninja432.github.io/Kharch/
+
+Backend (Render):  
+https://kharch.onrender.com/
+
+> Note: The backend is hosted on Render’s free tier and may take ~30–60 seconds to wake up after inactivity.
+> If the app appears unresponsive, open the backend URL once to wake the service.
+
+## Tech Stack
+
+- Backend: FastAPI
+- Database: SQLite (WAL mode)
+- Frontend: Vanilla HTML/CSS/JS
+- Deployment: GitHub Pages (frontend), Render (backend)
