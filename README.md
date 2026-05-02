@@ -141,7 +141,7 @@ There are multiple cases where this project might expose some shortcomings like 
 ## Live Demo
 
 Frontend (GitHub Pages):  
-https://anaghninja432.github.io/Kharch/
+[https://anaghninja432.github.io/Kharch/](https://anaghninja432.github.io/Kharch./)
 
 Backend (Render):  
 https://kharch.onrender.com/
